@@ -1,7 +1,7 @@
 Clean up PATH
 =============
 
-[![Test](https://github.com/egor-tensin/cleanup-path/actions/workflows/test.yml/badge.svg)](https://github.com/egor-tensin/cleanup-path/actions/workflows/test.yml)
+[![Test](https://github.com/atomlong/cleanup-path/actions/workflows/test.yml/badge.svg)](https://github.com/atomlong/cleanup-path/actions/workflows/test.yml)
 
 This GitHub action cleans up the PATH variable.
 
@@ -13,7 +13,7 @@ the default paths are included.
 Use it in your workflow like this:
 
     - name: Clean up PATH
-      uses: egor-tensin/cleanup-path@v2
+      uses: atomlong/cleanup-path@v2
 
 * You can pass additional directory paths to add to PATH using the `dirs`
 parameter.
